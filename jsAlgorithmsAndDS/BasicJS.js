@@ -29,6 +29,14 @@ function cc(card) {
   }
 }
 
+// Build JavaScript Objects
+const myDog = {
+   "name": "",
+  "legs": 0,
+  "tails": 0,
+  "friends": []
+};
+
 // Record Collection 84%
 const recordCollection = {
     2548: {
