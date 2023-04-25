@@ -37,6 +37,22 @@ const myDog = {
   "friends": []
 };
 
+// Using object for lookups
+function phoneticLookup(val) {
+  let result = "";
+  let lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie":"Chicago",
+    "delta":"Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  }
+  result = lookup[val];
+  return result;
+}
+phoneticLookup("charlie");
+
 // Record Collection 84%
 const recordCollection = {
     2548: {
