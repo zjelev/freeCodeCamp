@@ -53,6 +53,14 @@ function phoneticLookup(val) {
 }
 phoneticLookup("charlie");
 
+// Testing Objects for Properties
+function checkObj(obj, checkProp) {
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj.checkProp;
+  }
+  return "Not Found"
+}
+
 // Record Collection 84%
 const recordCollection = {
     2548: {
